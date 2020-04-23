@@ -2,7 +2,7 @@ namespace L02_FirstFudge {
     import ƒ = FudgeCore;
 
     window.addEventListener("load", hndLoad);
-    export let viewport: ƒ.Viewport;
+    let viewport: ƒ.Viewport;
 
     function hndLoad(_event: Event): void {
         const canvas: HTMLCanvasElement = document.querySelector("canvas");

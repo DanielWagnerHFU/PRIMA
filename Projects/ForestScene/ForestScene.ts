@@ -25,7 +25,7 @@ namespace ExampleSceneForest {
 
         let ground: f.Node = createCompleteMeshNode("Ground",
             new f.Material("Ground", f.ShaderUniColor, new f.CoatColored(clrGround))
-                ,new f.MeshCube());
+                , new f.MeshCube());
         let cmpGroundMesh: f.ComponentMesh = ground.getComponent(f.ComponentMesh);
 
         cmpGroundMesh.pivot.scale(new f.Vector3(6, 0.05, 6));
