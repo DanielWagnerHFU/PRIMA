@@ -1,4 +1,4 @@
-namespace Snake {
+namespace Snake_Custom {
     import ƒ = FudgeCore;
 
     let node: ƒ.Node;
@@ -43,5 +43,11 @@ namespace Snake {
         let mtrSolidWhite: ƒ.Material = new ƒ.Material("SolidWhite", ƒ.ShaderUniColor, new ƒ.CoatColored(ƒ.Color.CSS("WHITE")));
         let cmpMaterial: ƒ.ComponentMaterial = new ƒ.ComponentMaterial(mtrSolidWhite);
         node.addComponent(cmpMaterial);
+    }
+
+    class SnakeBoard extends ƒ.Node {
+        public constructor(width: number, height: number) {
+            super("SnakeBoard");
+        }
     }
 }

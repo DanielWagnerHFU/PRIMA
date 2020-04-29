@@ -1,1 +1,1 @@
-{"version":3,"file":"Snake.js","sourceRoot":"","sources":["Snake.ts"],"names":[],"mappings":""}
+{"version":3,"file":"Snake.js","sourceRoot":"","sources":["Snake.ts"],"names":[],"mappings":";AAAA,IAAU,KAAK,CAcd;AAdD,WAAU,OAAK;IAGX,MAAM,KAAK;QAGP,YAAY,OAAe;YACvB,IAAI,CAAC,QAAQ,GAAG,OAAO,CAAC;QAC5B,CAAC;QAED,CAAC;QAED,CAAC;KACJ;AACL,CAAC,EAdS,KAAK,KAAL,KAAK,QAcd"}

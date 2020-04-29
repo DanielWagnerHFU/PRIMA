@@ -1,6 +1,6 @@
 "use strict";
-var Snake;
-(function (Snake) {
+var Snake_Custom;
+(function (Snake_Custom) {
     var ƒ = FudgeCore;
     let node;
     let viewport;
@@ -38,5 +38,5 @@ var Snake;
         let cmpMaterial = new ƒ.ComponentMaterial(mtrSolidWhite);
         node.addComponent(cmpMaterial);
     }
-})(Snake || (Snake = {}));
+})(Snake_Custom || (Snake_Custom = {}));
 //# sourceMappingURL=Main.js.map
